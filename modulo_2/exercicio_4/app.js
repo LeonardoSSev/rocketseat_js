@@ -21,6 +21,8 @@ function adicionar () {
   
   nomes.push(nome);
   carregarLista();
+
+  inputElement.value = '';
 }
 
 const nomes = ["Diego", "Gabriel", "Lucas"];
