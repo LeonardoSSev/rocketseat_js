@@ -18,6 +18,10 @@ function adicionar () {
   const inputElement = document.getElementsByName('nome')[0];
 
   const nome = inputElement.value;
+
+  if (nome === '') {
+    return;
+  }
   
   nomes.push(nome);
   carregarLista();
